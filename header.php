@@ -43,7 +43,7 @@
 			<header class="" role="banner">
 					<div class='col-xs-12 header clear'>
 					<!-- logo -->
-						<div class="wrapper ">
+						<div class="wrapper">
 
 							<h1><a class="logo" href="<?php echo home_url(); ?>">Palmetto Pressure Clean Logo</a></h1>
 

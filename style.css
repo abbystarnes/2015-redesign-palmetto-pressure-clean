@@ -71,10 +71,23 @@
   font-size: 1.5em; }
 
 .hero {
-  background-image: url("img/headerBackgroundgreen.jpg");
+  background-image: url("img/hero.jpg");
   background-size: cover;
-  height: 450px;
-  background-size: 100% 450px; }
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  background-size: 563px 300px;
+  position: relative; }
+  .hero p {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 24px;
+    left: 10%;
+    right: 10%;
+    line-height: 2em; }
 
 /* global box-sizing */
 *,

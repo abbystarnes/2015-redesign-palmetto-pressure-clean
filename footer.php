@@ -1,18 +1,27 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-
+			
+			<form action="demo_form.asp" method="get">
+				<h3>Ready to <i>Restore the Feeling of New?&#0153;</i></h3>
+			  First name: <input type="text" name="fname"><br>
+			  Last name: <input type="text" name="lname"><br>
+			  <input type="submit" value="Submit">
+			</form>
+			
+			<div class="trueFooter">
 				<!-- copyright -->
 				<p class="copyright">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
 					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
 				</p>
 				<!-- /copyright -->
+			</div>
 
 			</footer>
 			<!-- /footer -->
 
 		</div>
-		<!-- /wrapper -->
+		<!-- /container-fluid -->
 
 		<?php wp_footer(); ?>
 
