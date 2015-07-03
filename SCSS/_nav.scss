@@ -1,0 +1,28 @@
+
+.nav {
+	ul {
+		padding-left: 0px;
+		text-align: center;
+	
+	}
+	
+	li {
+		list-style-type: none;
+		display: inline-block;
+		width: 32.65%;
+		
+		// height: 33px;
+		// border: 1px solid red;
+		vertical-align: middle;
+		padding: 4px 0px;
+
+
+	}
+
+	a {
+		font-weight: thin;
+		text-transform: uppercase;
+		color: $green;
+		font-size: 1.5em;
+	}
+}

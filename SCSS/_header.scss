@@ -1,7 +1,7 @@
 .header {
-	height: 159px;
+	height: 120px;
 	padding-top: 23px;
-	background-image: url("img/headerBackground.jpg");
+	background-image: url("img/headerBackgroundgreen.jpg");
 	background-size: cover;
 
 	h1 {
@@ -42,11 +42,14 @@
 	a {
 		color: $white;
 	}
+
+	padding-left: 0px;
+
 	li {
 		list-style-type: none;
 		text-align: right;
 		line-height: 2em;
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 	float:right;
 }

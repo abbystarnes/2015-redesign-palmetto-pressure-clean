@@ -20,6 +20,7 @@
 
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		
 
 
 
@@ -39,20 +40,21 @@
 		<div class="container-fluid">
 			
 			<!-- header -->
-			<header class=" col-xs-12 header clear" role="banner">
-					
+			<header class="" role="banner">
+					<div class='col-xs-12 header clear'>
 					<!-- logo -->
-					<div class="wrapper">
-						<h1><a class="logo" href="<?php echo home_url(); ?>">Palmetto Pressure Clean Logo</a></h1>
+						<div class="wrapper ">
 
-						<ul class="contact">
-							<li><a href="tel://803-467-7887">803.467.7887</a></li>
-							<li><a href="mailto:info@PalmettoPressureClean.com"><i class="fa fa-envelope"></i> Email</a></li>
-							<li><a href="">Pay Bill</a></li>
-						</ul>
-					</div>
+							<h1><a class="logo" href="<?php echo home_url(); ?>">Palmetto Pressure Clean Logo</a></h1>
+
+							<ul class="contact">
+								<li><a href="tel://803-467-7887">803.467.7887</a></li>
+								<li><a href="mailto:info@PalmettoPressureClean.com"><i class="fa fa-envelope"></i> Email</a></li>
+								<li><a href="">Pay Bill</a></li>
+							</ul>
+						</div>
 					<!-- /logo -->
-
+					</div>
 					<!-- nav -->
 					<nav class="nav" role="navigation">
 						<?php html5blank_nav(); ?>
