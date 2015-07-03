@@ -1,0 +1,52 @@
+.header {
+	height: 159px;
+	padding-top: 23px;
+	background-image: url("img/headerBackground.jpg");
+	background-size: cover;
+
+	h1 {
+		display:inline-block;
+		margin: 0px;
+	}
+}
+
+.logo {
+	background-image: url("img/logoWhite.svg");
+	background-image: url("img/logoWhite.png");
+	 background-size: 53px 197px;
+  margin: 0 auto;
+  height: 53px;
+  width: 197px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 1em;
+  margin-top: 0px;
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contact {
+	display:inline-block;
+
+	a {
+		color: $white;
+	}
+	li {
+		list-style-type: none;
+		text-align: right;
+		line-height: 2em;
+		font-size: 1.5em;
+	}
+	float:right;
+}

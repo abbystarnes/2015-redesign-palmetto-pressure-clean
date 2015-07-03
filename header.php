@@ -12,6 +12,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
+		 <!-- Bootstrap -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    	<!-- fontawesome -->
+    	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
 		<?php wp_head(); ?>
 		<script>
         // conditionizr.com
@@ -25,18 +36,20 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<!-- wrapper -->
-		<div class="wrapper">
-
+		<div class="container-fluid">
+			
 			<!-- header -->
-			<header class="header clear" role="banner">
-
+			<header class=" col-xs-12 header clear" role="banner">
+					
 					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
+					<div class="wrapper">
+						<h1><a class="logo" href="<?php echo home_url(); ?>">Palmetto Pressure Clean Logo</a></h1>
+
+						<ul class="contact">
+							<li><a href="tel://803-467-7887">803.467.7887</a></li>
+							<li><a href="mailto:info@PalmettoPressureClean.com"><i class="fa fa-envelope"></i> Email</a></li>
+							<li><a href="">Pay Bill</a></li>
+						</ul>
 					</div>
 					<!-- /logo -->
 
