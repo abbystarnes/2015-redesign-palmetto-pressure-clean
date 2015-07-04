@@ -8,7 +8,13 @@
 		display:inline-block;
 		margin: 0px;
 	}
+
+	// @media (min-width:$mamaBear) {
+	// 	height: 200px;
+	// }
+
 }
+
 
 .logo {
 	background-image: url("img/logoWhite.svg");
@@ -25,6 +31,12 @@
   padding: 0px;
   margin-bottom: 1em;
   margin-top: 0px;
+
+  @media (min-width:$mamaBear) {
+		
+		height: 80px;
+		width: 296px;
+	}
 }
 
 .container-fluid {
@@ -50,6 +62,13 @@
 		text-align: right;
 		line-height: 2em;
 		font-size: 1em;
+		@media (min-width:$mamaBear) {
+		font-size: 1.25em;
+		}
 	}
 	float:right;
 }
+
+
+
+

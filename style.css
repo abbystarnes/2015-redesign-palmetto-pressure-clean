@@ -35,6 +35,10 @@
   padding: 0px;
   margin-bottom: 1em;
   margin-top: 0px; }
+  @media (min-width: 840px) {
+    .logo {
+      height: 80px;
+      width: 296px; } }
 
 .container-fluid {
   padding: 0px; }
@@ -54,21 +58,32 @@
     text-align: right;
     line-height: 2em;
     font-size: 1em; }
+    @media (min-width: 840px) {
+      .contact li {
+        font-size: 1.25em; } }
 
 .nav ul {
   padding-left: 0px;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px; }
 .nav li {
   list-style-type: none;
   display: inline-block;
   width: 32.65%;
   vertical-align: middle;
-  padding: 4px 0px; }
+  padding: 8px 0px; }
 .nav a {
   font-weight: thin;
   text-transform: uppercase;
   color: #145b42;
-  font-size: 1.5em; }
+  font-size: 1em; }
+@media (min-width: 560px) {
+  .nav a {
+    font-size: 1.5em; } }
+@media (min-width: 840px) {
+  .nav a {
+    font-size: 1.75em; } }
 
 .hero {
   background-image: url("img/hero.jpg");
@@ -76,18 +91,135 @@
   background-repeat: no-repeat;
   height: 300px;
   width: 100%;
-  background-size: 563px 300px;
-  position: relative; }
+  background-size: 563px 300px; }
   .hero p {
     font-size: 1.5em;
     font-weight: normal;
     color: #fff;
     margin: 0 auto;
-    position: absolute;
-    bottom: 24px;
-    left: 10%;
-    right: 10%;
+    line-height: 1.5em;
+    width: 90%;
+    padding-top: 208px; }
+  @media (min-width: 560px) {
+    .hero {
+      height: 450px;
+      background-size: 845px 450px; }
+      .hero p {
+        padding-top: 312px;
+        font-size: 1.75em; } }
+  @media (min-width: 840px) {
+    .hero {
+      height: 600px;
+      background-size: 1126px 600px; }
+      .hero p {
+        padding-top: 464px;
+        font-size: 2em; } }
+  @media (min-width: 1120px) {
+    .hero {
+      height: 600px;
+      background-size: cover; }
+      .hero p {
+        padding-top: 475px;
+        font-size: 2.5em; } }
+
+.estimate {
+  width: 90%;
+  margin: 0 auto;
+  color: #145b42; }
+  .estimate h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0px;
+    margin-bottom: .5em;
+    margin-top: 1em; }
+  .estimate h2 {
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 24px; }
+  .estimate h5 {
+    margin: 0px;
+    margin-bottom: 1em;
+    font-size: 1em; }
+  .estimate input {
+    border: 2px solid #145b42;
+    width: 100%;
+    height: 32px;
+    margin-bottom: .5em;
+    padding-left: 8px; }
+  .estimate .buttonSubmit {
+    margin-top: 1em;
+    background-color: #145b42;
+    height: 2.5em;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    width: 48%;
+    box-shadow: 0px 5px 0px rgba(0, 150, 96, 0.75);
+    margin-bottom: 4em;
+    opacity: 1;
+    transition: opacity .5s ease; }
+    @media (min-width: 840px) {
+      .estimate .buttonSubmit {
+        width: 25%;
+        float: left;
+        clear: left; } }
+    @media (min-width: 1120px) {
+      .estimate .buttonSubmit {
+        height: 3em;
+        width: 20%; } }
+  @media (min-width: 560px) {
+    .estimate .inputs {
+      width: 48%;
+      max-width: 500px;
+      margin-right: 4%;
+      float: left; }
+    .estimate .inputs2 {
+      display: inline-block;
+      width: 48%;
+      max-width: 500px;
+      float: left; } }
+  @media (min-width: 1120px) {
+    .estimate .inputs2 {
+      clear: left; }
+    .estimate form {
+      width: 50%;
+      border: 1px solid red !important; } }
+
+.trueFooter {
+  background-color: #145b42;
+  height: 128px; }
+  .trueFooter a {
+    color: #fff; }
+  .trueFooter p {
+    margin-bottom: 0px;
+    color: #fff; }
+  @media (min-width: 840px) {
+    .trueFooter {
+      height: 164px; } }
+  .trueFooter .copyright {
+    padding-top: 90px;
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 840px) {
+      .trueFooter .copyright {
+        padding-top: 120px; } }
+  .trueFooter .contact {
+    margin-right: 5%;
+    padding-top: 2em;
     line-height: 2em; }
+    .trueFooter .contact li {
+      line-height: 2em; }
+    .trueFooter .contact i {
+      font-size: 1.25em;
+      padding-left: 5px; }
+    .trueFooter .contact .fa-facebook-square, .trueFooter .contact .fa-twitter-square {
+      font-size: 1.5em;
+      padding-top: .25em; }
 
 /* global box-sizing */
 *,
@@ -138,8 +270,7 @@ a:active {
   outline: 0; }
 
 input:focus {
-  outline: 0;
-  border: 1px solid #04A4CC; }
+  outline: 0; }
 
 /*------------------------------------*\
     STRUCTURE

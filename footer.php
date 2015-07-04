@@ -1,17 +1,32 @@
 			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+			<footer class="footer clearfix" role="contentinfo">
 			
-			<form action="demo_form.asp" method="get">
-				<h3>Ready to <i>Restore the Feeling of New?&#0153;</i></h3>
-			  First name: <input type="text" name="fname"><br>
-			  Last name: <input type="text" name="lname"><br>
-			  <input type="submit" value="Submit">
+			<form class="estimate clearfix" action="demo_form.asp" method="get">
+				<h3>Ready to <i>restore the feeling of new?&#0153;</i></h3>
+				<h2>Schedule a free onsite estimate</h2>
+				<h5>We respond to all email requests within 24 hours</h5>
+				<div class="inputs">
+					  Name <input type="text" name="name" placeholder="John Doe"><br>
+					   Phone <input type="text" name="number" placeholder="888-888-8888"><br>
+				</div>
+
+				<div class="inputs2"> 
+					  Email <input type="text" name="email" placeholder="johndoe@gmail.com"><br>
+				</div>
+			  <input class="button buttonSubmit" type="submit" value="Submit Request">
 			</form>
 			
 			<div class="trueFooter">
+				<!-- contact -->
+				<ul class="contact">
+								<li><a href="tel://803-467-7887">803.467.7887</a></li>
+								<li><a href="mailto:info@PalmettoPressureClean.com"><i class="fa fa-envelope"></i> Email</a></li>
+								<li><a href="#"><i class= "fa fa-facebook-square"></i></a><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+							</ul>
+				<!-- contact -->
 				<!-- copyright -->
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by ', 'html5blank'); ?>
 					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
 				</p>
 				<!-- /copyright -->

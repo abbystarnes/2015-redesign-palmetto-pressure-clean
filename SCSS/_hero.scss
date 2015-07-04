@@ -5,18 +5,50 @@
 	height: 300px;
 	width: 100%;
 	background-size: 563px 300px;
-	position: relative;
 	p {
 		font-size: 1.5em;
 		font-weight: normal;
 		color: $white;
-		// width: 90%;
 		margin: 0 auto;
-		position: absolute;
-		bottom: 24px;
-		left: 10%;
-		right: 10%;
-		line-height: 2em;
+		line-height: 1.5em;
+		width: 90%;
+		padding-top: 208px;
+
+	}
+
+
+	@media (min-width:$babyBear) {
+
+		height: 450px;
+		background-size: 845px 450px;
+
+		p {
+			padding-top: 312px;
+			font-size: 1.75em;
+		}
+
+	}
+
+	@media (min-width:$mamaBear) {
+		height: 600px;
+		background-size: 1126px 600px;
+
+		p {
+			padding-top: 464px;
+			font-size:2em;
+		}
+
+	}
+
+	@media (min-width:$papaBear) {
+		height: 600px;
+		background-size: cover;
+
+		p {
+			padding-top: 475px;
+			font-size:2.5em;
+		}
+
 	}
 }
 
