@@ -1,6 +1,8 @@
 			<!-- footer -->
 			<footer class="footer clearfix" role="contentinfo">
 			
+		<div class="articles">
+
 			<form class="estimate clearfix" action="demo_form.asp" method="get">
 				<h3>Ready to <i>restore the feeling of new?&#0153;</i></h3>
 				<h2>Schedule a free onsite estimate</h2>
@@ -15,7 +17,13 @@
 				</div>
 			  <input class="button buttonSubmit" type="submit" value="Submit Request">
 			</form>
-			
+
+			<div class="maintenance clearfix">
+				<h3>Are you a Property Manager?</h3>
+				<p> Find out how we help busy  people keep  their developments, retail buildings, fleet vehicles and more looking sharp with regularly scheduled cleanings.</p>
+				<input class="button buttonMaintenance" type="submit" value="Maintenance Plan">
+			</div>
+		</div>
 			<div class="trueFooter">
 				<!-- contact -->
 				<ul class="contact">

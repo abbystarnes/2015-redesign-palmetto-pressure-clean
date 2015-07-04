@@ -37,6 +37,11 @@ html {
 body {
 	font: normal 11px/1.4 'Open Sans', Helvetica, Arial, sans-serif;
 	color:#444;
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	
+
 }
 /* clear */
 .clear:before,
