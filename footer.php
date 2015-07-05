@@ -8,20 +8,21 @@
 				<h2>Schedule a free onsite estimate</h2>
 				<h5>We respond to all email requests within 24 hours</h5>
 				<div class="inputs">
-					  Name <input type="text" name="name" placeholder="John Doe"><br>
-					   Phone <input type="text" name="number" placeholder="888-888-8888"><br>
+					  <p class="inputLabel">Name</p> <input type="text" name="name" placeholder="John Doe"><br>
+					   <p class="inputLabel">Phone</p> <input type="text" name="number" placeholder="888-888-8888"><br>
 				</div>
 
 				<div class="inputs2"> 
-					  Email <input type="text" name="email" placeholder="johndoe@gmail.com"><br>
+					  <p class="inputLabel">Email</p> <input type="text" name="email" placeholder="johndoe@gmail.com">
+					  
 				</div>
-			  <input class="button buttonSubmit" type="submit" value="Submit Request">
+			  <input class="buttonSubmit" type="submit" value="Submit Request">
 			</form>
 
 			<div class="maintenance clearfix">
 				<h3>Are you a Property Manager?</h3>
 				<p> Find out how we help busy  people keep  their developments, retail buildings, fleet vehicles and more looking sharp with regularly scheduled cleanings.</p>
-				<input class="button buttonMaintenance" type="submit" value="Maintenance Plan">
+				<input class="buttonMaintenance" type="submit" value="Maintenance Plan">
 			</div>
 		</div>
 			<div class="trueFooter">
@@ -34,8 +35,7 @@
 				<!-- contact -->
 				<!-- copyright -->
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by ', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+					&copy; <?php echo date('Y'); ?> Copyright Lorem ipsum dolor sit amet</a>.
 				</p>
 				<!-- /copyright -->
 			</div>

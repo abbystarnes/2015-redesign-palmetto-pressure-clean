@@ -1,3 +1,5 @@
+
+
 .header {
 	height: 130px;
 	padding-top: 23px;
@@ -9,11 +11,31 @@
 		margin: 0px;
 	}
 
-	// @media (min-width:$mamaBear) {
-	// 	height: 200px;
-	// }
+	
 
 }
+
+.addTitle {
+	display:block;
+	width: 100%;
+	color: $white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2.5em;
+	padding-bottom: 0px;
+	@media (min-width:$mamaBear) {
+		font-size: 3em;
+	}
+}
+
+.includeTitle {
+	height: 150px;
+
+	@media (min-width:$mamaBear) {
+		height: 175px;
+	}
+}
+
 
 
 .logo {
@@ -36,6 +58,18 @@
 		
 		height: 80px;
 		width: 296px;
+	}
+}
+
+.includeTitleLogo {
+	
+	height: 40px;
+	width: 148px;
+
+	 @media (min-width:$mamaBear) {
+		
+		height: 53px;
+		width: 197px;
 	}
 }
 

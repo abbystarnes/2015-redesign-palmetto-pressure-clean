@@ -40,18 +40,19 @@
 		<div class="container-fluid">
 			
 			<!-- header -->
-			<header class="" role="banner">
-					<div class='col-xs-12 header clear'>
+			<header id="" role="banner">
+					<div class='col-xs-12 header includeTitle clear'>
 					<!-- logo -->
 						<div class="wrapper">
 
-							<h1><a class="logo" href="<?php echo home_url(); ?>">Palmetto Pressure Clean Logo</a></h1>
-							<h1></h1>
+							<h1><a class="logo includeTitleLogo" href="<?php echo home_url(); ?>">Palmetto Pressure Clean Logo</a></h1>
+							
 							<ul class="contact">
 								<li><a href="tel://803-467-7887">803.467.7887</a></li>
 								<li><a href="mailto:info@PalmettoPressureClean.com"><i class="fa fa-envelope"></i> Email</a></li>
 								<li><a href="">Pay Bill</a></li>
 							</ul>
+							<h1 class="addTitle">About Us</h1>
 						</div>
 					<!-- /logo -->
 					</div>

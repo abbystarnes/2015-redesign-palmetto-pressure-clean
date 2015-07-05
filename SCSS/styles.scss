@@ -16,11 +16,14 @@
 @import 'nav';
 @import 'hero';
 @import 'footer';
+@import 'about';
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700italic,700,300,400);
 
 
 
 /* global box-sizing */
+
+
 *,
 *:after,
 *:before {
@@ -38,9 +41,9 @@ body {
 	font: normal 11px/1.4 'Open Sans', Helvetica, Arial, sans-serif;
 	color:#444;
 	width: 100%;
-	max-width: 1280px;
+	max-width: 2520px;
 	margin: 0 auto;
-	
+
 
 }
 /* clear */
@@ -85,8 +88,8 @@ input:focus {
 
 /* wrapper */
 .wrapper {
-	max-width:1280px;
-	width:95%;
+	
+	width:90%;
 	margin:0 auto;
 	position:relative;
 }
