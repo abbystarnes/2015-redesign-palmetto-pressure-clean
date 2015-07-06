@@ -5,6 +5,9 @@
 margin: 0 auto;
 display:block;
 
+p {
+	line-height: 1.5;
+}
 
 
 
@@ -80,9 +83,10 @@ text-align: center;
 
 .award {
 	margin: 2em 5%;
-	width: 180px;
-	height: 180px;
+	width: 140px;
+	height: 140px;
 	display:inline-block;
+	background-size: 140px 140px;
 	
 
 }
@@ -90,6 +94,7 @@ text-align: center;
 .image1 {
 	background-image: url("img/award1.jpg");
 	background-image: url("img/award1.png");
+
 	
 }
 

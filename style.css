@@ -88,6 +88,9 @@
       .contact li {
         font-size: 1.25em; } }
 
+#post-11 {
+  display: none; }
+
 .nav ul {
   padding-left: 0px;
   text-align: center;
@@ -122,6 +125,7 @@
   .hero p {
     font-size: 1.5em;
     font-weight: normal;
+    color: #fff;
     margin: 0 auto;
     line-height: 1.5em;
     width: 90%;
@@ -153,8 +157,9 @@
       font-size: 4em; } }
 
 .hero2 {
-  background-image: url("img/ppcabouWhite2.jpg"); }
+  background-image: url("img/ppcabout copy.jpg"); }
   .hero2 p {
+    color: #fff;
     padding-top: 50px; }
   @media (min-width: 580px) {
     .hero2 {
@@ -163,9 +168,9 @@
         font-size: 1.5em; } }
   @media (min-width: 840px) {
     .hero2 {
-      height: 400px; }
+      height: 300px; }
       .hero2 p {
-        font-size: 2em; } }
+        font-size: 1.75em; } }
   @media (min-width: 1120px) {
     .hero2 {
       height: 300px;
@@ -177,9 +182,10 @@
     .hero2 {
       height: 300px; }
       .hero2 p {
-        font-size: 2em; } }
+        font-size: 1.5em; } }
 
 .estimate {
+  padding-top: 1em;
   margin-left: 5%;
   margin-right: 5%;
   color: #145b42; }
@@ -320,9 +326,11 @@
   margin: 0 auto;
   background-color: #f2f2f2; }
 
-@media (min-width: 1120px) {
-  #post-13 {
-    height: 600px; } }
+#post-13 {
+  background-color: #f2f2f2; }
+  @media (min-width: 1120px) {
+    #post-13 {
+      height: 600px; } }
 
 .buttonMaintenance {
   border: 1px solid rgba(0, 150, 96, 0.25);
@@ -349,6 +357,8 @@
 .aboutSection {
   margin: 0 auto;
   display: block; }
+  .aboutSection p {
+    line-height: 1.5; }
   .aboutSection h1, .aboutSection h2 {
     line-height: 1.5em;
     color: #145b42;
@@ -389,9 +399,10 @@
 
 .award {
   margin: 2em 5%;
-  width: 180px;
-  height: 180px;
-  display: inline-block; }
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  background-size: 140px 140px; }
 
 .image1 {
   background-image: url("img/award1.jpg");
@@ -404,6 +415,119 @@
 .image3 {
   background-image: url("img/award3.jpg");
   background-image: url("img/award3.png"); }
+
+.servicesIntro {
+  padding-top: 2em;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 1.5em; }
+
+.galleryWrapper {
+  background-color: #f2f2f2;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.gallery {
+  padding-top: 2em;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: left; }
+
+.res {
+  position: relative;
+  background-size: 1200px 730px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 100%;
+  height: 183px;
+  text-align: center;
+  margin-bottom: 1em; }
+  @media (min-width: 580px) {
+    .res {
+      width: 48%;
+      margin-right: 1%; } }
+  @media (min-width: 840px) {
+    .res {
+      width: 32%;
+      margin-right: 1%; } }
+  @media (min-width: 1120px) {
+    .res {
+      width: 23%;
+      margin-right: 1%; } }
+  @media (min-width: 1800px) {
+    .res {
+      height: 225px; } }
+
+.res1 {
+  background-image: url("img/galleryRes1.jpg"); }
+
+.res2 {
+  background-image: url("img/galleryRes2.jpg"); }
+
+.res3 {
+  background-image: url("img/galleryRes3.jpg"); }
+
+.res4 {
+  background-image: url("img/galleryRes5.jpg"); }
+
+.res5 {
+  background-image: url("img/galleryRes4.jpg"); }
+
+.res6 {
+  background-image: url("img/galleryRes6.jpg"); }
+
+.res7 {
+  background-image: url("img/galleryRes7.jpg"); }
+
+.cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  opacity: .7; }
+
+.cover::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 2em;
+  line-height: 183px;
+  text-transform: uppercase; }
+
+.cover1::after {
+  content: "Homes & Vinyl Siding"; }
+
+.cover2::after {
+  content: "Concrete"; }
+
+.cover3::after {
+  content: "Roofs"; }
+
+.cover4::after {
+  content: "Brick"; }
+
+.cover5::after {
+  content: "Gutter: Interior"; }
+
+.cover6::after {
+  content: "Patios & Pooldecks"; }
+
+.cover7::after {
+  content: "Other"; }
+
+#post-2 {
+  background-color: #f2f2f2; }
 
 /* global box-sizing */
 *,

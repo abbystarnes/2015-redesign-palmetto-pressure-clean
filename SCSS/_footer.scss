@@ -1,5 +1,6 @@
 
 .estimate {
+	padding-top: 1em;
 	margin-left: 5%;
 	margin-right: 5%;
 	color: $green;
@@ -219,6 +220,7 @@
 }
 
 #post-13 {
+	background-color: $grey;
 	@media (min-width:$papaBear) {
 		height: 600px;
 	}
