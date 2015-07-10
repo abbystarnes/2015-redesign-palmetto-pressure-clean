@@ -88,9 +88,6 @@
       .contact li {
         font-size: 1.25em; } }
 
-#post-11 {
-  display: none; }
-
 .nav ul {
   padding-left: 0px;
   text-align: center;
@@ -204,7 +201,8 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2em;
-    line-height: 24px; }
+    line-height: 24px;
+    color: #145b42; }
   .estimate h5 {
     margin: 0px;
     margin-bottom: 2em;
@@ -324,10 +322,11 @@
   position: relative;
   width: 100%;
   margin: 0 auto;
-  background-color: #f2f2f2; }
+  background-color: #fff;
+  color: #145b42; }
 
 #post-13 {
-  background-color: #f2f2f2; }
+  background-color: #fff; }
   @media (min-width: 1120px) {
     #post-13 {
       height: 600px; } }
@@ -353,6 +352,9 @@
   font-size: 1.25em;
   margin-bottom: 3px;
   margin-top: 6px; }
+
+.articles2 {
+  background-color: #f2f2f2; }
 
 .aboutSection {
   margin: 0 auto;
@@ -423,111 +425,67 @@
   margin: 0 auto;
   width: 90%;
   padding-bottom: 1.5em; }
+  .servicesIntro h3 {
+    color: #145b42;
+    text-transform: uppercase;
+    line-height: 2em;
+    font-size: 2em;
+    font-weight: bold; }
+  .servicesIntro p {
+    font-size: 1em;
+    line-height: 2em; }
 
 .galleryWrapper {
   background-color: #f2f2f2;
   padding-top: 1em;
-  padding-bottom: 1em; }
-
-.gallery {
-  padding-top: 2em;
-  width: 90%;
+  padding-bottom: 1em;
   margin: 0 auto;
-  overflow: hidden;
-  text-align: left; }
-
-.res {
-  position: relative;
-  background-size: 1200px 730px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 100%;
-  height: 183px;
-  text-align: center;
-  margin-bottom: 1em; }
-  @media (min-width: 580px) {
-    .res {
-      width: 48%;
-      margin-right: 1%; } }
-  @media (min-width: 840px) {
-    .res {
-      width: 32%;
-      margin-right: 1%; } }
-  @media (min-width: 1120px) {
-    .res {
-      width: 23%;
-      margin-right: 1%; } }
-  @media (min-width: 1800px) {
-    .res {
-      height: 225px; } }
-
-.res1 {
-  background-image: url("img/galleryRes1.jpg"); }
-
-.res2 {
-  background-image: url("img/galleryRes2.jpg"); }
-
-.res3 {
-  background-image: url("img/galleryRes3.jpg"); }
-
-.res4 {
-  background-image: url("img/galleryRes5.jpg"); }
-
-.res5 {
-  background-image: url("img/galleryRes4.jpg"); }
-
-.res6 {
-  background-image: url("img/galleryRes6.jpg"); }
-
-.res7 {
-  background-image: url("img/galleryRes7.jpg"); }
-
-.cover {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background-color: black;
-  opacity: .7; }
-
-.cover::after {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  color: white;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 2em;
-  line-height: 183px;
-  text-transform: uppercase; }
-
-.cover1::after {
-  content: "Homes & Vinyl Siding"; }
-
-.cover2::after {
-  content: "Concrete"; }
-
-.cover3::after {
-  content: "Roofs"; }
-
-.cover4::after {
-  content: "Brick"; }
-
-.cover5::after {
-  content: "Gutter: Interior"; }
-
-.cover6::after {
-  content: "Patios & Pooldecks"; }
-
-.cover7::after {
-  content: "Other"; }
+  width: 90%;
+  text-align: center; }
 
 #post-2 {
   background-color: #f2f2f2; }
+
+#post-11 {
+  background-color: #f2f2f2; }
+
+#post-120 {
+  background-color: #f2f2f2; }
+
+#huge_it_gallery_container_1 {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+#huge_it_gallery_container_2 {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.twentytwenty-overlay {
+  display: none; }
+
+.twentytwenty-after-label {
+  display: none; }
+
+.twentytwenty-before-label {
+  display: none; }
+
+.twentytwenty-container {
+  width: 400px;
+  display: inline-block;
+  margin-bottom: 2em; }
+
+.twentytwenty-wrapper {
+  width: 400px;
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 2em; }
 
 /* global box-sizing */
 *,

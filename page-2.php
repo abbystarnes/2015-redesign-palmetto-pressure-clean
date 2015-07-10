@@ -1,4 +1,4 @@
-<?php get_header('custom1'); ?>
+<?php get_header('custom2'); ?>
 
 	<main role="main">
 		<!-- section -->
@@ -42,4 +42,4 @@
 
 
 
-<?php get_footer('custom1'); ?>
+<?php get_footer(''); ?>
