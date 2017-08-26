@@ -3,10 +3,10 @@
 # Palmetto Pressure Clean
 > redesign and responsive WordPress build of local power washing company's website
 
-![homepage](img/PPC.JPG)
+![homepage](img/PPC.jpg)
 
-![about](img/aboutppc.JPG)
+![about](img/aboutppc.jpg)
 
-![residential](img/resippc.JPG)
+![residential](img/resippc.jpg)
 
-![single](img/singleppc.JPG)
+![single](img/singleppc.jpg)
